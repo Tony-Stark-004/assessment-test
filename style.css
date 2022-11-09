@@ -101,33 +101,43 @@ input[type="submit"]{
 
 @media (min-width: 320px)and (max-width: 500px) {
 
-    #div{
-        background-image: url(./image/assign\ 3_1.jpg);
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 400px;
-    }
-
     #form{
-        left: 22%;
-    }
+    
+            width: 250px;
+            height: auto;
+            top: 30px;
+            font-size: 8px;
+ }
+
+ #form form input{
+    margin: 20px;
+ }
+
+ #ven{
+    top: -23;
+ }
 
 }
 
 
 @media (min-width: 500px)and (max-width: 720px) {
 
-    #div{
-        background-image: url(./image/assign\ 3_1.jpg);
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 400px;
-    }
+
 
     #form{
-        left: 30%;
-    }
+    
+        width: 250px;
+        height: auto;
+        top: 30px;
+        font-size: 8px;
+}
+
+#form form input{
+margin: 20px;
+}
+
+#ven{
+top: -23;
+}
 
 }
