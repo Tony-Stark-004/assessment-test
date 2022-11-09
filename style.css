@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#div{
+    background: url(./image/assign\ 3_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 99%;
+    height: 700px;
+    position: absolute;
+    z-index: 0;
+    margin: 0px;
+   
+}
+
+#form{
+    position: relative;
+    width: 450px;
+    color: rgb(4, 4, 4);
+    background-color: white; 
+    text-align: center;
+    font-size: smaller;
+    border: 1px solid #000;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: center;
+    z-index: 1;
+    left: 35%;
+    top: 140px;
+    box-shadow: 13px 13px 10px pink inset;
+}
+
+
+
+#form form label{
+    font-size: small;
+    
+}
+
+input[type="submit"]{
+    margin: 10px;
+    /* font-size: large; */
+}
+
+#form form input{
+     font-size: 12px; 
+     margin-left: 80px;
+     vertical-align: super;
+
+}
+
+#ven{
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+    margin: 70px;
+    color: white;
+    top: 210px;
+}
+
+.center{
+    text-align: center;   
+}
+
+#margin-bottom{
+    margin: 0px;
+}
+
+#margin-top{
+    margin-top: 0px;
+}
+
+#form form input{
+    border: 0.2px solid black;
+    border-radius: 2px;
+}
+
+#form form label{
+    position: absolute;
+}
+
+@media (min-width: 320px)and (max-width: 500px) {
+
+    #div{
+        background-image: url(./image/assign\ 3_1.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 400px;
+    }
+
+    #form{
+        left: 22%;
+    }
+
+}
+
+
+@media (min-width: 320px)and (max-width: 500px) {
+
+    #div{
+        background-image: url(./image/assign\ 3_1.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 400px;
+    }
+
+    #form{
+        left: 22%;
+    }
+
+}
+
+
+@media (min-width: 500px)and (max-width: 720px) {
+
+    #div{
+        background-image: url(./image/assign\ 3_1.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 400px;
+    }
+
+    #form{
+        left: 30%;
+    }
+
+}
